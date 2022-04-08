@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 2;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  color: #14505c;
+  font-family: raleway;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav .navigation .navbar-brand {
+  color: #14505c;
+}
+nav .navigation .navbar-brand:visited {
+  color: #14505c;
+}
+nav .nav .navbar-nav li .nav-link {
+  color: #14505c;
+}
+nav .nav .navbar-nav li .nav-link:hover {
+  background: #14505c;
+  color: white;
+}
+nav .nav .navbar-nav li .dropdown-menu li .dropdown-item {
+  color: #14505c;
+}
+nav .nav .navbar-nav li .dropdown-menu li .dropdown-item:hover {
+  background: #14505c;
+  color: white;
+}
+
+.up {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  color: #14505c;
+  opacity: 0.5;
+  background: none;
+}
+
+.up:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in;
+  background: none;
+}
+
+.one {
+  background-image: url(/img/home1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.one h4 {
+  color: white;
+}
+.one h1 {
+  color: white;
+}
+.one h1 strong {
+  color: white;
+}
+.one button {
+  background: #14505c;
+  color: white;
+  border: none;
+  width: 160px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.one button:hover {
+  background: #124049;
+  transition: 0.2s all ease;
+}
+.one a i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.two h1 {
+  text-align: center;
+}
+.two .two-1 {
+  gap: 2rem;
+}
+.two .two-1 .two-1-1 button {
+  background: #14505c;
+  border: none;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.two .two-1 .two-1-1 button:hover {
+  background: #124049;
+  transition: 0.2s all ease;
+}
+.two .about-1 {
+  width: 210px;
+  height: 321px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.two .about-2 {
+  width: 280px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.slider .slides h4 {
+  color: white;
+  position: absolute;
+  bottom: 25%;
+  right: 15%;
+}
+.slider .slides span {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+}
+.slider .slides img {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.four img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.four video {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.four button {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: #14505c;
+  color: white;
+  border: none;
+  text-align: center;
+}
+.four button i {
+  color: white;
+}
+.four button:hover {
+  background: #124049;
+  transition: 0.2s all ease;
+}
+
+.five .five-one {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.five .five-one img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.five .five-one .rating {
+  font-weight: 500;
+}
+.five .five-one .place {
+  font-weight: 500;
+}
+.five .five-one .country {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.five .five-one button {
+  background: #14505c;
+  color: white;
+  width: 120px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.five .five-one button i {
+  color: white;
+}
+.five .five-one button:hover {
+  background: #124049;
+  transition: 0.2s all ease;
+}
+
+.six .six-1 form input {
+  width: 400px;
+}
+.six .six-1 form button {
+  color: white;
+  background: #14505c;
+  width: 120px;
+  border: none;
+}
+.six .six-1 form button:hover {
+  background: #124049;
+  transition: 0.2s all ease;
+}
+
+.seven {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  place-items: center;
+}
+.seven img {
+  width: 200px;
+}
+
+.eight a {
+  color: #14505c;
+  text-decoration: none;
+}
+.eight a i {
+  font-size: 1.5rem;
+}
+.eight a:hover {
+  text-decoration: underline;
+  transform: 0.3s all ease;
+  color: #124049;
+}
+.eight ul {
+  list-style: none;
+}
+
+@media (max-width: 450px) {
+  .six .six-1 form input {
+    width: 80%;
+  }
+  .six .six-1 form button {
+    color: white;
+    background: #14505c;
+    width: 120px;
+    border: none;
+  }
+}/*# sourceMappingURL=travel.css.map */
